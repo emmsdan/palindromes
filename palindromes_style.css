@@ -1,0 +1,104 @@
+/* reset browser default */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+        background: #eee;
+        color: #003;    
+        font-weight: bold;
+        font-family: 'Inconsolata', Monaco, Consolas, 'Andale Mono', monospace;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .header{
+        color: #263238;
+        padding: 10px;
+        width: 70%;
+        position: absolute;
+        left: 15%;
+        top: 10%;
+        font-size: 7rem;
+        text-align: center;
+    }
+    .header span{
+        font-size: 1rem;
+        text-align: left;
+        margin-left: -12%;
+        color: #0091ea ;
+        border-radius: 5px;
+    }
+    .notification{
+        color: #ff5722 ;
+        padding: 10px;
+        width: 60%;
+        position: absolute;
+        left: 19%;
+        top: 35%;
+        font-size: 1.1rem;
+        text-align: center;    
+    }
+    form, .list{
+        padding: 10px;
+        width: 70%;
+        position: absolute;
+        left: 15%;
+        top: 40%;   
+        background: transparent !important;
+    }
+    button{
+        background: rgba(0, 128, 192, 0.9) !important;
+        border: none;
+        color: #fff;
+        width: 13%;
+        height: 32px;
+        padding: 10px;
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+    button:hover{
+        background: #0277bd !important;
+    }
+    
+    input{
+        height: 30px;
+        width: 80%;
+        padding: 10px;
+        border: 1px solid #01579b;
+        background: #fff !important; 
+        text-transform: capitalize;
+    }
+    .list{
+        top: 55%;
+        padding: 20px;
+        list-style: none;
+    }
+    .list li{
+        background: rgba(0, 128, 192, 0.9) !important;
+        width: 91%;
+        padding: 15px;
+        color: #fff;
+        margin: 1px;
+    }
+    .list li:hover,.list li:nth-child(even):hover{
+        background: #fff !important;
+        color:#263238 !important;
+        cursor: pointer;
+        box-shadow: 0px 0px 1px #000;
+    }
+    .list li:nth-child(even){
+        background: #263238 !important;
+        color:#fff !important;
+    }
+    .list li .close{
+        padding: 7px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        color: #001;
+        border-radius: 100%;
+        float: right;
+        margin-top: -10px; /* move close button up*/
+        cursor: pointer;
+    }
