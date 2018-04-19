@@ -25,10 +25,10 @@
                > b. download and copy file to development folder
             
             2.Dependencies
-                  >      a. this Technical Challenge did not make use of any external dependency
-                  >      b. code are pure vanilla javascript
-                  >      c. compatable with es5+
-                  >      d. html + css are responsive
+                  
+                  - code are pure vanilla javascript
+                  - compatable with es5+
+                  - html + css are responsive
 
             3. Usage
 
